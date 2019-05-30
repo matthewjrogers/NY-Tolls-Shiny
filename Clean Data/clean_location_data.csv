@@ -1,0 +1,79 @@
+exit_num,milepost,latitude,longitude,exit_name
+1,0.48,40.9121,-73.87535,Hall Place - McLean Avenue
+2,0.92,40.92149,-73.86309,Yonkers Avenue - Raceway (No Southbound Exit)
+3,1.77,40.9251,-73.8585,Mile Square Road (No Southbound Exit)
+4,2.18,40.93086,-73.85683,Cross County Parkway - Mile Square Road
+5,2.7,40.93833,-73.85564,White Plains - Central Park Avenue (NY Route 100)(No Southbound Exit)
+6,4,40.95496,-73.86093,(6 Northbound; 6E & 6W Southbound) Yonkers - Bronxville - Tuckahoe Road
+6A,5.14,40.9667,-73.8608,Stew Leonard Drive
+7,7.58,41.00872,-73.85099,Ardsley - NY Route 9A (No Southbound Exit)
+7A,10.33,41.04259,-73.83608,Saw Mill River Parkway - Taconic State Parkway
+8,11.31,41.05656,-73.83533,White Plains - Rye - Cross Westchester Expressway (I-287)
+8A,11.8,41.05769,-73.83732,Elmsford - NY Route 119 - Saw Mill River Parkway North (No Northbound Exit)
+9,12.65,41.06267,-73.86195,Tarrytown - Sleepy Hollow - US Route 9
+10,16.49,41.08199,-73.92317,Nyack - South Nyack - US Route 9W (No Southbound Exit)
+11,17.63,41.09071,-73.92879,Nyack - South Nyack - US Route 9W
+12,18.76,41.09957,-73.95094,West Nyack - NY Route 303 - Palisades Center Drive
+13,20.94,41.10179,-73.99245,(13N & 13S in Both Directions) New Jersey - Palisades Interstate Parkway - Bear Mountain State Park
+14,22.8,41.10272,-74.02769,Spring Valley - Nanuet - NY Route 59
+14A,23.53,41.09768,-74.03997,New Jersey – Garden State Parkway
+14B,27.62,41.11629,-74.11232,Airmont - Montebello - Airmont Road
+15,30.17,41.12133,-74.16283,New Jersey - I-287 - NJ Route 17 South
+15A,31.35,41.13408,-74.16819,Sloatsburg - Suffern - NY Routes 17 North & 59
+16,45.2,41.31065,-74.12265,Harriman - US Route 6 - NY Route 17
+17,60.1,41.50947,-74.07446,Newburgh - Scranton- I-84 - NY Routes 17K & 300
+18,76.01,41.73551,-74.0657,New Paltz - Poughkeepsie - NY Route 299
+19,91.37,41.94764,-74.02749,Kingston - NY Route 28 – Kingston-Rhinecliff Bridge
+20,101.25,42.08306,-73.97328,Saugerties - Woodstock - NY Route 32
+21,113.89,42.25013,-73.88444,Catskill - Cairo - NY Route 23
+21B,124.53,42.39365,-73.82495,Coxsackie - Ravena - US Route 9W - NY Route 81
+21A,133.6,42.51557,-73.78949,Boston - Massachusetts Turnpike - Berkshire Connector (I-90 East)
+22,134.93,42.53415,-73.78411,Selkirk - NY Routes 144 & 396
+23,141.92,42.63289,-73.78142,Albany (Downtown) - Troy - Rensselaer - I-787 - US Route 9W
+24,148.15,42.69778,-73.84546,Albany - Montreal - I-90 East - I-87 North
+25,153.83,42.754,-73.93361,Schenectady - I-890 - NY Routes 7 & 146
+25A,158.82,42.79035,-74.01592,Schenectady - Binghamton - I-88 - NY Route 7
+26,162.22,42.83812,-74.0126,Schenectady - Scotia - I-890 - NY Routes 5 & 5S
+27,173.59,42.92295,-74.19648,Amsterdam - NY Route 30
+28,182.17,42.94476,-74.35976,Fultonville - Fonda - NY Route 30A
+29,194.1,42.90697,-74.56224,Canajoharie - Sharon Springs - NY Route 10
+29A,210.62,43.01657,-74.81745,Little Falls - Dolgeville - NY Route 169
+30,219.7,43.01778,-74.98931,Herkimer - Mohawk - NY Route 28
+31,232.85,43.11198,-75.20499,Utica - I-790 - NY Routes 8 & 12
+32,243.37,43.12388,-75.40102,Westmoreland - Rome - NY Route 233
+33,252.71,43.12375,-75.5823,Verona - Rome - Oneida - NY Route 365
+34,261.5,43.0926,-75.7472,Canastota - Oneida - Chittenango - NY Route 13
+34A,276.58,43.09475,-76.04353,Syracuse - Chittenango - Oswego - I-481
+35,278.93,43.09278,-76.08985,Syracuse - East Syracuse - NY Route 298
+36,282.93,43.09458,-76.16788,Watertown - Binghamton - I-81
+37,283.79,43.10206,-76.18139,Syracuse - Liverpool - Electronics Parkway
+38,285.95,43.11717,-76.21867,Syracuse - Liverpool - County Route 57
+39,289.53,43.1073,-76.2872,Syracuse - Fulton - I-690 - NY Route 690
+40,304.19,43.06112,-76.56474,Weedsport - Auburn - NY Route 34
+41,320.41,42.96744,-76.85294,Waterloo - Clyde - NY Route 414
+42,327.1,42.95489,-76.98206,Geneva - Lyons - NY Route 14
+43,340.15,42.97874,-77.23343,Manchester - Palmyra - NY Route 21
+44,347.13,42.9957,-77.3684,Canandaigua - Victor - NY Route 332
+45,350.99,43.00922,-77.43991,Rochester - Victor - I-490
+46,362.44,43.04775,-77.65387,Rochester - Corning - I-390
+47,378.56,43.02896,-77.96674,Rochester - LeRoy - I-490 - NY Route 19
+48,390.13,43.01859,-78.18819,Batavia - NY Route 98
+48A,401.72,43.00281,-78.41385,Pembroke - Medina - NY Route 77
+49,417.27,42.95065,-78.70493,Depew - Lockport - NY Route 78
+50,420.34,42.94892,-78.76393,Niagara Falls - I-290
+50A,420.93,42.94412,-78.76637,Cleveland Drive (No Westbound Exit)
+51,421.57,42.93153,-78.76629,(51E & 51W in Both Directions) Buffalo - NY Route 33 - Airport
+52A,424.92,42.88318,-78.76863,Buffalo - William Street
+53,426.17,42.87422,-78.78891,Buffalo (Downtown) - Canada - Niagara Falls - I-190
+54,427.94,42.8491,-78.79061,West Seneca - East Aurora - NY Routes 400 & 16
+55,429.47,42.82744,-78.79094,Springville - Orchard Park - Lackawanna - West Seneca - US Route 219 - Ridge Road
+56,432.45,42.79274,-78.81661,Blasdell - Orchard Park - Mile Strip Road (NY Route 179)
+57,436.22,42.74377,-78.84037,Hamburg - East Aurora - NY Route 75
+57A,444.87,42.65908,-78.9609,Eden - Angola
+58,455.54,42.55092,-79.10812,"Silver Creek - Irving - NY Routes 5, 20 & 438"
+59,467.74,42.4621,-79.3058,Dunkirk - Fredonia - NY Route 60
+60,485,42.33869,-79.58345,Westfield - Mayville - NY Route 394
+61,494.92,42.26208,-79.74435,Ripley - Shortman Road
+B1,6.58,42.4821,-73.67022,Albany - Hudson - Rensselaer - I-90 - US Route 9
+B2,15.09,42.42027,-73.54834,Taconic State Parkway - NY Route 295
+B3,23.27,42.35767,-73.42707,Austerlitz - New Lebanon - NY Route 22

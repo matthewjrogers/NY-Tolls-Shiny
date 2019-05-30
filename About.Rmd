@@ -1,0 +1,25 @@
+---
+title: "About the NY Tolls App"
+author: "Matthew J. Rogers"
+date: "March 31, 2019"
+output: html_document
+---
+
+### Impetus
+
+I was inspired to investigate this data after dropping my wife off at JFK Airport early on a Saturday morning. I had expected an uneventful drive, given the time of day, but found myself in substantial traffic. This lead to the central question of this app: how does traffic flow vary by both time of day and day of week?
+
+### Pending Improvements
+
+My time frame for producing this app was regrettably short. Future iterations will include:
+
+1. Historical data beyond the past week
+2. Additional graph/map views, including an origin/destination map
+3. Modularized code
+   + This will allow me to minimize repetitive code between views
+4. A transition from a Shiny App to a Shiny Dashboard 
+5  A predictive feature (i.e. given a day of the week and time of day, how much traffic volume is anticipated at a particular exit?)
+
+### Removals
+The table containing information on busiest exits is not particularly informative and will be replaced. Additionally, the 'summary' section will be replaced with dynamic summary statistics.
+
