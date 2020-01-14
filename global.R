@@ -7,8 +7,10 @@ library(lubridate)
 library(R.utils)
 
 library(shiny)
+library(shinyjs)
 library(shinyWidgets) # improved Shiny UI features
 library(shinythemes) # simple formatting
+library(shinydashboard)
 library(shinydashboardPlus)
 library(leaflet) # mapping
 library(DT)

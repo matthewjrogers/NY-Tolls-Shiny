@@ -1,5 +1,6 @@
 ui <- navbarPage("New York Thruway Usage, March 20-26 2019",
                  theme = shinytheme("flatly"),
+                 header = tagList(shinyWidgets::useShinydashboard()),
                  tabPanel("Entrances and Exits",
                           sidebarLayout(
                             sidebarPanel(
@@ -27,30 +28,37 @@ ui <- navbarPage("New York Thruway Usage, March 20-26 2019",
                               width = 2
                             ),
                             mainPanel(
-                              fluidRow(width = NULL,
-                                       column(9,
+                              shinyjs::useShinyjs(),
+                              fluidRow(
+                                       column(width = 9,
                                               boxPlus(
-                                                title = "Entrances and Exits from New York Thruway",
+                                                width = NULL,
+                                                status = 'primary',
+                                                solidHeader = T,
                                                 closable = F,
                                                 collapsible = F,
+                                                title = "Entrances and Exits from New York Thruway",
                                                 leaflet::leafletOutput("hourly_on_off_map"),
-                                                width = 12,
                                                 footer = "Source: New York State Department of Transportation"
                                               ),
                                               fluidRow(
-                                                column(8,
-                                                       boxPlus(
+                                                column(width = 8,
+                                                       box(
                                                          title = "Busiest Exit(s)",
                                                          closable = F,
                                                          collapsible = F,
                                                          DT::DTOutput("busiest_exit_table"),
-                                                         width = 12
+                                                         status = 'primary',
+                                                         solidHeader = TRUE,
+                                                         width = NULL
                                                        )),
-                                                column(4,
+                                                column(width = 4,
                                                        boxPlus(
                                                          title = "Summary",
                                                          closable = F,
                                                          collapsible = F,
+                                                         status = 'primary',
+                                                         solidHeader = TRUE,
                                                          div("This app allows you to interactively explore toll data from the New York State Thruway",
                                                              br(), br(),
                                                              "The sizes of the map bubbles are proportional to the number of Thruway entrances 
