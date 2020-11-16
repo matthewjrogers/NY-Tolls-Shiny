@@ -65,6 +65,7 @@ server <- function(input, output, session){
       addTiles() %>% 
       addCircleMarkers(lng = ~longitude,
                        lat = ~latitude,
+                       color = "#23395d",
                        # Note: The following is an admittedly inelegant solution to a filtering problem
                        # If a filter for total is included in the data reactive, the dynamic N filter shrinks each time it is adjusted
                        # However, if it is used in the data argument to leaflet(), as I elected to do, the hover information displays 

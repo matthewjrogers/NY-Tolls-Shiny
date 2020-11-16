@@ -1,4 +1,7 @@
 ui <- navbarPage("New York Thruway Usage, March 20-26 2019",
+                 # tags$head(
+                 #   tags$link(rel = "stylesheet", type = "text/css", href = "styles.css")
+                 # ),
                  theme = shinytheme("flatly"),
                  header = tagList(shinyWidgets::useShinydashboard()),
                  tabPanel("Entrances and Exits",
@@ -29,6 +32,13 @@ ui <- navbarPage("New York Thruway Usage, March 20-26 2019",
                             ),
                             mainPanel(
                               shinyjs::useShinyjs(),
+                              tags$style(HTML(".box.box-solid.box-primary>.box-header {
+color:#fff;background:#2c3e50}.box.box-solid.box-primary{
+border-bottom-color:#2c3e50;
+border-left-color:#2c3e50;
+border-right-color:#2c3e50;
+border-top-color:#2c3e50;
+}.irs{nackground:#2c3e50;}")),
                               fluidRow(
                                        column(width = 9,
                                               boxPlus(
@@ -62,7 +72,7 @@ ui <- navbarPage("New York Thruway Usage, March 20-26 2019",
                                                          div("This app allows you to interactively explore toll data from the New York State Thruway",
                                                              br(), br(),
                                                              "The sizes of the map bubbles are proportional to the number of Thruway entrances 
-                                                             or exits in the selected time range.",
+or exits in the selected time range.",
                                                              br(), br(),
                                                              "See the 'About' tab for a brief discussion of the construction of the app."),
                                                          width = 12
@@ -73,12 +83,12 @@ ui <- navbarPage("New York Thruway Usage, March 20-26 2019",
                               )
                             )
                           )
-                 ),
-                 tabPanel("About",
-                          fluidRow(width = NULL,
-                                   column(7,
-                                          includeMarkdown("About.Rmd")
-                                   )
-                          )
                  )
+                 # tabPanel("About",
+                 #          fluidRow(width = NULL,
+                 #                   column(7,
+                 #                          includeMarkdown("About.Rmd")
+                 #                   )
+                 #          )
+                 # )
 )
